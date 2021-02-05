@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+/* CSS Document */
+:root{
+	--deepcol:#1d1e3d;
+	--midcol:#777777;
+	--litecol:#ededed;
+	--textcol:#1d1e3d;
+	--acol:#111111;
+    --accntc1:#037d9d;
+    --accntcl2:#fb8038;
+    --accntcl3:#db0059;}
+
+html{font-size:63.5%;} 
+html, body{ 
+ margin:0; 
+ padding:0; 
+} 
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+header {
+	width: 100%;
+	height: 150px;
+    background-color:#FFFFFF;
+}
+h1{}
+h2{}
+h3{}
+p{}
+
+nav{
+    
+}
+ul{}
+li{}
+a{}
+a:hover {}
+
+main{
+ 
+    }
+section{
+    width: 90%;
+}
+.wrapper {
+     }
+
+.container{}
+
+.hero {}
+
+.slidr{
+    }
+
+article{
+}
+
+figure{}
+
+figurecaption{}
+
+.more{}
+
+aside{}
+
+footer{
+ height:150px; 
+  background-color:#FFFFFF; 
+ clear:both;
+ display:block;
+ overflow:auto;
+}
+.footer{
+        
+ }  
+.social{}
+
+.socket {
+	padding: 2em;
+	text-align: center;
+	color: #fff;
+	background-color: #444;
+}
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+/* *********Clearfix*************** */
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}    
+    
+    
+/* ################# MEDIA QUERIES #################### */
+	/*desktops - higher resolution*/
+@media (min-width: 1281px)
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) 
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px)
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px)
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px)
